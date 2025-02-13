@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <title>Integrantes do Megadeth - Youthanasia</title>
+    <link rel="stylesheet" href="css/pg4.css">
+    <style>
+
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+            line-height: 1.6;
+            background-color: #121212;
+            padding: 20px;
+        }
+
+        .titulo {
+            width: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .integrantes-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        }
+
+        .integrante {
+            background: rgba(255, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .integrante:hover {
+            background: rgba(255, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+
+        .integrante img {
+            width: 100%;
+            max-width: 200px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.5);
+        }
+
+        .integrante h2 {
+            font-size: 1.5em;
+            color: #ff0000;
+            margin-top: 10px;
+        }
+
+        .integrante p {
+            font-size: 1.1em;
+            color: #d1d1d1;
+        }
+
+        @media (max-width: 768px) {
+            .titulo {
+                width: 80%;
+            }
+            .integrantes-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="../img/integrantes-title.png" alt="Integrantes do Megadeth" class="titulo">
+
+    <p>Durante a gravação de <b>Youthanasia</b>, o <b>Megadeth</b> contava com uma formação lendária que ajudou a moldar o som icônico do álbum.</p>
+
+    <div class="integrantes-container">
+        <div class="integrante">
+            <img src="../img/mustaine.png" alt="Dave Mustaine">
+            <h2>🎤 Dave Mustaine</h2>
+            <p>Fundador e líder do Megadeth, Mustaine foi o principal compositor e vocalista do álbum.</p>
+        </div>
+
+        <div class="integrante">
+            <img src="../img/friedman.png" alt="Marty Friedman">
+            <h2>🎸 Marty Friedman</h2>
+            <p>Com seu estilo único, Friedman trouxe solos icônicos e melodias marcantes para *Youthanasia*.</p>
+        </div>
+
+        <div class="integrante">
+            <img src="../img/ellefson.png" alt="David Ellefson">
+            <h2>🎸 David Ellefson</h2>
+            <p>Parceiro de longa data de Mustaine, Ellefson ajudou a criar a base rítmica pesada do álbum.</p>
+        </div>
+
+        <div class="integrante">
+            <img src="../img/menza.png" alt="Nick Menza">
+            <h2>🥁 Nick Menza</h2>
+            <p>Com sua pegada poderosa, Menza trouxe uma performance marcante na bateria de *Youthanasia*.</p>
+        </div>
+    </div>
+
+</body>
+</html>
